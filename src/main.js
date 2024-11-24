@@ -10,7 +10,7 @@ import PageContact from "./pages/PageContact.vue"
 import PageCustomers from "./pages/PageCustomers.vue";
 import PageHome from "./pages/PageHome.vue";
 import PageProducts from "./pages/PageProducts.vue";
-
+import PageLogin from "./pages/PageLogin.vue";
 
 const router = createRouter({
     history: createWebHistory(),
@@ -20,6 +20,7 @@ const router = createRouter({
         { path: '/contact', component: PageContact },
         { path: '/customers', component: PageCustomers },
         { path: '/products', component: PageProducts },
+        { path: '/login', component: PageLogin },
     ]
 });
 
