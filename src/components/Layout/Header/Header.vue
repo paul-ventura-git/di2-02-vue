@@ -15,7 +15,7 @@ export default {
         <li class="nav-item"><router-link to="/contact" class="nav-link link-light px-2">Contact</router-link></li>
       </ul>
       <ul class="nav">
-        <li class="nav-item"><a href="/login" class="nav-link link-light px-2">Login</a></li>
+        <li class="nav-item"><router-link to="/login" class="nav-link link-light px-2">Login</router-link></li>
         <li class="nav-item"><a href="/register" class="nav-link link-light px-2">Sign up</a></li>
       </ul>
     </div>
